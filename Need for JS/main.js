@@ -135,6 +135,7 @@ function playGame() {
 
         car.style.left = setting.x + 'px';
         car.style.top = setting.y + 'px';
+
         requestAnimationFrame(playGame);
     } else {
         music.pause();
